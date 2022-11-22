@@ -16,11 +16,13 @@
 }
 
 .navigation>a {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    padding: 10px 15px;
+    padding: 1rem;
     border-radius: 50%;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 
 .navigation>a:hover {
